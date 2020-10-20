@@ -1,0 +1,17 @@
+@mixin defineColorRGB($color, $red, $green, $blue, $alpha) {
+    #{$color}: unquote("rgba(#{$red}, #{$green}, #{$blue}, #{$alpha})");
+    #{$color}-r: #{$red};
+    #{$color}-g: #{$green};
+    #{$color}-b: #{$blue};
+}
+:root,
+[data-theme="default"] {
+    @include defineColorRGB(--color-primary, 87, 87, 87, 1); //#575757
+    @include defineColorRGB(--pill-border, 196, 196, 196, 0.5);
+    @include defineColorRGB(--container-border, 231, 231, 231, 1);
+    @include defineColorRGB(--border-primary, 222, 222, 222, 1); //#DEDEDE
+    @include defineColorRGB(--bg-primary, 229, 229, 229, 1);
+    @include defineColorRGB(--primary-green, 8, 145, 86, 1); // #089156
+    @include defineColorRGB(--primary-blue, 235, 244, 253, 1); // #EBF4FD
+    @include defineColorRGB(--theme-blue, 54, 141, 231, 1); //#368DE7
+}

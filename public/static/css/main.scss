@@ -1,0 +1,55 @@
+@import "./colors";
+@import "./fonts";
+
+@import "tailwindcss/base";
+@import "./bootstrap/index";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+html,
+body {
+    font-family: "Avenir LT Std", sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    font-family: "Avenir LT Std", sans-serif !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--color-heading);
+    }
+}
+
+.font-bolder {
+    font-weight: 750;
+}
+
+.line-height-19 {
+    line-height: 19px;
+}
+
+.line-height-17 {
+    line-height: 17px;
+}
+
+.line-height-12 {
+    line-height: 12px;
+}
+
+.line-height-14 {
+    line-height: 14px;
+}
+
+.mt-10px {
+    margin-top: 0.625rem;
+}
+
+.mb-10px {
+    margin-bottom: 0.625rem;
+}
+

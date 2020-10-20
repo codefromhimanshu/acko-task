@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /*Smooth scrolling in safari/IE*/
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+.issue-title{
+    background-color: #e1e4e8;
+    border: 0.5px solid #d1d5da;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.issue-body{
+    border: 0.5px solid #d1d5da;
+    border-radius: 5px;
+    padding: 5px; 
+}
+
+.label {
+    margin: 5px 0;
+}

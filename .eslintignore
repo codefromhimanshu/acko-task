@@ -1,0 +1,4 @@
+**/*.scss
+pages/home
+pages/policy/*/*.js
+pages/policy/*/*.css
